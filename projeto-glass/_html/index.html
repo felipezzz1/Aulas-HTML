@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../_css/style.css">
+</head>
+<script src="../_js/script.js"></script>
+<body>
+    <div id="interface">
+    <header id="cabecalho">
+            <div id="titulo">
+                <hgroup>
+                    <h1>Google Glass</h1>
+                    <h2>A revolução do Google está chegando</h2>
+                </hgroup>
+            </div>
+            <img id="icone" src="../_imagens/oculospreto.png" width="150px" alt="Imagem de oculos preto pequeno">
+            
+            <nav id="menu">
+                <h1>Menu principal</h1>
+                <ul type="disc">
+                    <li onmouseover="mudaFoto('../_imagens/gato.png')" onmouseout="mudaFoto('../_imagens/oculospreto.png')"> <a href="index.html">Home</a></li>
+                    <li onmouseover="mudaFoto('../_imagens/gato.png')" onmouseout="mudaFoto('../_imagens/oculospreto.png')"><a href="specs.html">Especificações</a></li>
+                    <li onmouseover="mudaFoto('../_imagens/gato.png')" onmouseout="mudaFoto('../_imagens/oculospreto.png')"><a href="fotos.html">Fotos</a></li>
+                    <li onmouseover="mudaFoto('../_imagens/gato.png')" onmouseout="mudaFoto('../_imagens/oculospreto.png')"><a href="multimidia.html">Multimídia</a></li>
+                    <li onmouseover="mudaFoto('../_imagens/gato.png')" onmouseout="mudaFoto('../_imagens/oculospreto.png')"><a href="fale-conosco.html">Fale Conosco</a></li>
+                </ul>
+                
+            </nav>
+    </header>
+
+    <section id="corpo">
+        <article id="noticia-principal">
+            <header id="cabecalho-artigo">
+                <hgroup>
+                    <h3>Tecnologia > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Inovações </h3>
+                    <h1>Saiba tudo sobre o Google Glass</h1>
+                    <h2>por Felipe Z</h2>
+                    <h3 class="direita">Atualizado em 10/10/2023</h3>
+                </hgroup>
+            </header>
+            <div id="o-que-e">
+                <h2>O que é?</h2>
+                <p><b>Lorem ipsum</b> dolor sit amet <a href="http://glass.google.com" target="_blank">consectetur</a> <i>algo italico</i> elit. Dignissimos accusantium, expedita fuga, magnam nisi soluta illum qui perferendis nobis laudantium sint, distinctio quidem molestias. Dolor ad iusto eum! Ratione, nulla!</p>
+            </div>
+        
+            <figure class="foto-legenda">
+                <img src="../_imagens/gato.png" alt="Imagem de um gato">
+                <figcaption>
+                    <h3>Google Glass</h3>
+                    <p>Uma nova maneira de ver o mundo</p>
+                </figcaption>
+            </figure>
+        
+            <div id="lancamento">
+                <h2>Data Lançamento</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur debitis ex rem nisi quas sint enim voluptas quo dicta nihil, sunt voluptate itaque dolore maiores nam maxime natus eligendi incidunt?</p>
+            </div>
+        
+            <div id="funcionamento">
+                <h2>Especificações Técnicas</h2>
+                <table id="tabelaSpec">
+                    <caption>Tabela Técnica Google Glass<span>Mar/2023</span></caption>
+                    <tr><td class="ce">Tela</td> <td class="cd">Resolução boa</td></tr>
+                    <tr><td rowspan="2" class="ce">Camera</td><td class="cd">5mp para fotos </td></tr>
+                    <tr><td class="cd">720p para videos</td></tr>
+                    <tr><td rowspan="2" class="ce">Conectividade</td> <td class="cd">Wi-fi</td></tr>
+                    <tr><td class="cd">Bluetooth</td></tr>
+                    <tr><td class="ce">Memoria interna</td> <td class="cd">12GB</td></tr>
+                </table>
+            </div>
+        
+            <div id="o-que-fazer">
+                <h2>O que você pode fazer com o Google Glasses?</h1>
+                <p>Lorem ipsum dolor sit, am-<wbr>ea consectetur adipisicing elit. Quisquam quis veniam expedita maiores quod neque illum sunt tempore itaque veritatis, excepturi, volup&shy;tatibus nisi maxime alias corporis reiciendis, unde vero eius!</p>
+            </div>
+        
+            <video controls="controls" id="filme" poster="../_imagens/video-min.jpg">
+                <source src="../_media/sla.mp4" type="video/mp4">
+                <source src="../_media/sla.mp4" type="video/webm">
+                <source src="../_media/sla.mp4" type="video/ogg">
+                Desculpe, mas nao foi possivel carregar o video
+            </video>
+        </article>
+    </section>
+
+    <aside id="lateral">
+    
+    <h1>Outras Notícias</h1>
+    <h2>Video mais recente</h2>
+
+    <video controls="controls" id="filme" poster="../_imagens/video-min.jpg">
+        <source src="../_media/sla.mp4" type="video/mp4">
+        <source src="../_media/sla.mp4" type="video/webm">
+        <source src="../_media/sla.mp4" type="video/ogg">
+        Desculpe, mas nao foi possivel carregar o video
+    </video>
+
+    <h1>Novidades no Glass</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut expedita accusantium quis veritatis voluptatum beatae consectetur at quos laboriosam amet, similique fugit a praesentium unde deserunt blanditiis, corrupti culpa hic!</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid sapiente atque dolorum reiciendis debitis. Reprehenderit ad dolore ea ut, alias expedita ex dolorem dolor necessitatibus accusantium debitis repellendus molestiae error.</p>
+    </aside>
+
+    <footer id="rodape">
+        <p>Copyright &copy; 2023 - by Felipe Zorzo <br><a href="http://facebook.com" target="_blank">Facebook</a> | <a href="https://twitter.com" target="_blank">Twitter</a>
+        </p>
+    </footer>
+</div>
+
+</body>
+</html>

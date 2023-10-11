@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../_css/style.css">
+    <link rel="stylesheet" href="../_css/specs.css">
+</head>
+<script src="../_js/script.js"></script>
+<body>
+    <div id="interface">
+    <header id="cabecalho">
+            <div id="titulo">
+                <hgroup>
+                    <h1>Google Glass</h1>
+                    <h2>A revolução do Google está chegando</h2>
+                </hgroup>
+            </div>
+            <img id="icone" src="../_imagens/gato.png" width="150px" alt="Imagem de oculos preto pequeno">
+            
+            <nav id="menu">
+                <h1>Menu principal</h1>
+                <ul type="disc">
+                    <li onmouseover="mudaFoto('../_imagens/oculospreto.png')" onmouseout="mudaFoto('../_imagens/gato.png')"> <a href="index.html">Home</a></li>
+                    <li onmouseover="mudaFoto('../_imagens/oculospreto.png')" onmouseout="mudaFoto('../_imagens/gato.png')"><a href="specs.html">Especificações</a></li>
+                    <li onmouseover="mudaFoto('../_imagens/oculospreto.png')" onmouseout="mudaFoto('../_imagens/gato.png')"><a href="fotos.html">Fotos</a></li>
+                    <li onmouseover="mudaFoto('../_imagens/oculospreto.png')" onmouseout="mudaFoto('../_imagens/gato.png')"><a href="multimidia.html">Multimídia</a></li>
+                    <li onmouseover="mudaFoto('../_imagens/oculospreto.png')" onmouseout="mudaFoto('../_imagens/gato.png')"><a href="fale-conosco.html">Fale Conosco</a></li>
+                </ul>
+                
+            </nav>
+    </header>
+
+    <section id="corpo-full">
+        <article id="noticia-principal">
+            <header id="cabecalho-artigo">
+                <hgroup>
+                    <h3>Glass > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Especificações </h3>
+                    <h1>Raio-X no Google Glass</h1>
+                    <h2>por Felipe Z</h2>
+                    <h3 class="direita">Atualizado em 11/10/2023</h3>
+                </hgroup>
+            </header>
+        
+            <p>Clique na área destacada</p>
+
+            <section id="conteudo">
+                <img src="../_imagens/gato.png" alt="Outro gato" usemap="#meu-mapa">
+                <map name="meu-mapa">
+                    <area shape="rect" coords="216,220,320,364" href="../_html/google-glass.html#tela" target="janela">
+                    <area shape="circle" coords="214,147,44" href="../_html/google-glass.html#camera" target="janela">
+                    <area shape="circle" coords="81,334, 20" href="../_html/google-glass.html#bateria" target="janela">
+                    <area shape="circle" coords="208,303,143,362,65,250,133,158" href="../_html/google-glass.html#sensores" target="janela">
+                </map>
+                <iframe src="google-glass.html" scrolling="no" id="frame-spec" name="janela" frameborder="0"></iframe>
+            </section>
+
+        </article>
+    </section>
+
+    <footer id="rodape">
+        <p>Copyright &copy; 2023 - by Felipe Zorzo <br><a href="http://facebook.com" target="_blank">Facebook</a> | <a href="https://twitter.com" target="_blank">Twitter</a>
+        </p>
+    </footer>
+</div>
+
+</body>
+</html>

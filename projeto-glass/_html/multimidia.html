@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimidia</title>
+    <link rel="stylesheet" type="text/css" href="../_css/style.css">
+    <link rel="stylesheet" href="../_css/media.css">
+</head>
+<script src="../_js/script.js"></script>
+<body>
+    <div id="interface">
+    <header id="cabecalho">
+            <div id="titulo">
+                <hgroup>
+                    <h1>Google Glass</h1>
+                    <h2>A revolução do Google está chegando</h2>
+                </hgroup>
+            </div>
+            <img id="icone" src="../_imagens/gato.png" width="150px" alt="Imagem de oculos preto pequeno">
+            
+            <nav id="menu">
+                <h1>Menu principal</h1>
+                <ul type="disc">
+                    <li onmouseover="mudaFoto('../_imagens/oculospreto.png')" onmouseout="mudaFoto('../_imagens/gato.png')"> <a href="index.html">Home</a></li>
+                    <li onmouseover="mudaFoto('../_imagens/oculospreto.png')" onmouseout="mudaFoto('../_imagens/gato.png')"><a href="specs.html">Especificações</a></li>
+                    <li onmouseover="mudaFoto('../_imagens/oculospreto.png')" onmouseout="mudaFoto('../_imagens/gato.png')"><a href="fotos.html">Fotos</a></li>
+                    <li onmouseover="mudaFoto('../_imagens/oculospreto.png')" onmouseout="mudaFoto('../_imagens/gato.png')"><a href="multimidia.html">Multimídia</a></li>
+                    <li onmouseover="mudaFoto('../_imagens/oculospreto.png')" onmouseout="mudaFoto('../_imagens/gato.png')"><a href="fale-conosco.html">Fale Conosco</a></li>
+                </ul>
+                
+            </nav>
+    </header>
+
+    <section id="corpo-full">
+        <article id="noticia-principal">
+            <header id="cabecalho-artigo">
+                <hgroup>
+                    <h3>Glass > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Multimidia </h3>
+                    <h1>Galeria de imagens do Google Glass</h1>
+                    <h2>por Felipe Z</h2>
+                    <h3 class="direita">Atualizado em 11/10/2023</h3>
+                </hgroup>
+            </header>
+
+            <div id="tv-radio">
+                <audio controls="controls" id="musica">
+                    <source src="../_media/miauuuuuuuu.mp3" type="audio/mpeg">
+                    <source src="" type="audio/x-acc">
+                    <source src="" type="audio/ogg">
+                    Desculpe, mas nao foi possivel carregar o audio
+                </audio>
+                <video controls="controls" id="filme" poster="../_imagens/video-min.jpg">
+                    <source src="../_media/gettingStarted.mp4" type="video/mp4">
+                    <source src="../_media/sla.mp4" type="video/webm">
+                    <source src="../_media/sla.mp4" type="video/ogg">
+                    Desculpe, mas nao foi possivel carregar o video
+                </video>
+                <!-- <iframe id="video1" width="560" height="315" src="https://www.youtube.com/embed/4EvNxWhskf8?si=nXELUw6OZWUDvz0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  -->
+            </div>
+        </article>
+    </section>
+
+    <footer id="rodape">
+        <p>Copyright &copy; 2023 - by Felipe Zorzo <br><a href="http://facebook.com" target="_blank">Facebook</a> | <a href="https://twitter.com" target="_blank">Twitter</a>
+        </p>
+    </footer>
+</div>
+
+</body>
+</html>
